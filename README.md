@@ -1,12 +1,47 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo frontend em React para criar memes personalizados, utilizando Vite como ferramenta de build e desenvolvimento.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Escolha de imagens para criação de memes
+- Adição de texto customizado na parte superior e inferior do meme
+- Visualização dinâmica do meme gerado
+- Interface simples, rápida e responsiva
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tecnologias Utilizadas
+
+- React 19
+- Vite
+- ESLint com plugins para React e React Hooks
+
+---
+
+## Como rodar localmente
+
+### 1. Clone o repositório
+
+git clone https://github.com/Celsocag/meme_generator.git
+cd meme_generator
+
+2. Instale as dependências
+npm install
+
+
+4. Rode o servidor de desenvolvimento
+npm run dev
+O app ficará disponível em http://localhost:5173.
+
+Scripts disponíveis
+npm run dev — inicia o servidor de desenvolvimento com hot reload
+
+npm run build — gera o build de produção otimizado
+
+npm run preview — preview local do build gerado
+
+npm run lint — executa o ESLint para checar problemas no código
+
